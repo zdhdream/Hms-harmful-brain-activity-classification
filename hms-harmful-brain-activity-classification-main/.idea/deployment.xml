@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="root@192.168.159.5:1025 password" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false" showEqualInSync="true">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="root@192.168.159.5:1025 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zhangdonghui/kaggle/HMS-Harmful-Brain-Activity-Classification/Hms-harmful-brain-activity-classification" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/zhangdonghui/kaggle/HMS-Harmful-Brain-Activity-Classification/Hms-harmful-brain-activity-classification/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

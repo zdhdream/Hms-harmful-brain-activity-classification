@@ -1,0 +1,43 @@
+# file: $NEDC_NFC/util/cpp/nedc_stream/params_v00.txt
+#
+# a simple parameter file
+#
+
+#------------------------------------------------------------------------------
+#
+# Section 1: filename processing parameters
+#
+#------------------------------------------------------------------------------
+
+# set version information:
+#  version: "1.0"
+#
+version = 1.0
+
+# set channel selection and montage processing:
+#  channel_selection: "(null)" -or- provide channel labels (e.g. "Fp1-REF" 
+#  		      -or- "Fp1"). Signal is organized according to order in 
+#		      which the labels are specified. When "(null)" is entered
+#		      the entired input signal is selected. If match_mode=true,
+#		      the label must match exactly. Otherwise, a partial match
+#		      is used.
+#  select_mode: "select", "remove"
+#  match_mode: "exact", "partial"
+#  montage: must be "(null)" or a character string containing the channel and 
+#  a montage label string.
+#  	    e.g.: montage =  0, FP1-F7: EEG FP1-REF --  EEG F7-REF
+#  	    	  montage =  1, F7-T3:  EEG F7-REF  --  EEG T3-REF
+#                 montage =  2, EKG: EEG EKG
+#
+channel_selection = (null)
+select_mode = select
+match_mode = exact
+montage =  0, FP1: EEG FP1-REF
+montage =  1, FP2: EEG FP2-REF
+montage =  2, FP1-FP2: EEG FP1-REF -- EEG FP2-REF
+
+#------------------------------------------------------------------------------
+#
+# end of file
+#
+#------------------------------------------------------------------------------
